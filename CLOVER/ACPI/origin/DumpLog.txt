@@ -1,0 +1,100 @@
+4:921  3:499  Found UEFI Acpi 2.0 RSDP at CFFFE014
+4:921  0:000  Saving ACPI tables from RSDP CFFFE014 to EFI\CLOVER\ACPI\origin ...
+4:921  0:000   CFFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:928  0:007    (Xsdt: CFFD1188, Rsdt: CFFD10C4)
+4:928  0:000    CFFD1188: 'XSDT', 'TP-R00  ', Rev: 1, Len: 220 -> XSDT.aml
+4:935  0:007    CFFD10C4: 'RSDT', 'TP-R00  ', Rev: 1, Len: 128 -> RSDT.aml
+4:943  0:008    Tables in Xsdt: 23
+4:943  0:000    0. CFFF7000: 'FACP', 'TP-R00  ', Rev: 5, Len: 244 -> FACP.aml
+4:951  0:007        (Dsdt: CFFDE000, Facs: CFF9E000, XDsdt: CFFDE000, XFacs: 0)
+4:951  0:000        CFFDE000: 'DSDT', 'TP-R00  ', Rev: 2, Len: 71296 -> DSDT.aml
+4:964  0:013        CFF9E000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+4:971  0:007    1. CFFB5000: 'UEFI', 'TP-R00  ', Rev: 1, Len: 66 -> UEFI.aml
+4:979  0:007    2. CFFF8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 19978 -> SSDT-0.aml
+4:988  0:009    3. CFFF6000: 'ASF!', 'TP-R00  ', Rev: 32, Len: 165 -> ASF!.aml
+4:996  0:008    4. CFFF5000: 'ECDT', 'TP-R00  ', Rev: 1, Len: 82 -> ECDT.aml
+5:003  0:007    5. CFFF4000: 'HPET', 'TP-R00  ', Rev: 1, Len: 56 -> HPET.aml
+5:011  0:007    6. CFFF3000: 'LPIT', 'TP-R00  ', Rev: 1, Len: 148 -> LPIT.aml
+5:018  0:007    7. CFFF2000: 'APIC', 'TP-R00  ', Rev: 3, Len: 188 -> APIC.aml
+5:025  0:007    8. CFFF1000: 'MCFG', 'TP-R00  ', Rev: 1, Len: 60 -> MCFG.aml
+5:033  0:007    9. CFFF0000: 'WDAT', 'TP-R00  ', Rev: 1, Len: 308 -> WDAT.aml
+5:040  0:007    10. CFFDC000: 'SSDT', 'SataAhci', Rev: 1, Len: 6908 -> SSDT-1.aml
+5:048  0:008    11. CFFDB000: 'DBGP', 'TP-R00  ', Rev: 1, Len: 52 -> DBGP.aml
+5:056  0:007    12. CFFDA000: 'DBG2', 'TP-R00  ', Rev: 0, Len: 84 -> DBG2.aml
+5:063  0:007    13. CFFD9000: 'BOOT', 'TP-R00  ', Rev: 1, Len: 40 -> BOOT.aml
+5:070  0:007    14. CFFD8000: 'BATB', 'TP-R00  ', Rev: 1, Len: 70 -> BATB.aml
+5:078  0:007    15. CFFD7000: 'SLIC', 'TP-R00  ', Rev: 1, Len: 374 -> SLIC.aml
+5:085  0:007    16. CFFD6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+ Found hidden SSDT 7 pcs
+5:085  0:000        * CFF29798: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1821  53 53 44 54 1D 07 00 00 02 45 50 6D 52 65 66 00 Internal length = 1821 -> SSDT-3x.aml
+5:092  0:007        * CFF28618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D0 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-4x.aml
+5:099  0:007        * CFF28C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 975  53 53 44 54 CF 03 00 00 02 36 50 6D 52 65 66 00 Internal length = 975 -> SSDT-5x.aml
+5:107  0:007        * CFF27D98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-6x.aml
+5:114  0:007        * C9A03018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2D 50 6D 52 65 66 00 Internal length = 142 -> SSDT-7x.aml
+5:121  0:007        * C9A80198: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-8x.aml
+5:129  0:007        * C9A80018: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 87 50 6D 52 65 66 00 Internal length = 304 -> SSDT-9x.aml
+5:137  0:007   -> SSDT-2.aml
+5:145  0:008    17. CFFD5000: 'SSDT', 'CtdpB', Rev: 2, Len: 985 -> SSDT-10.aml
+5:152  0:007    18. CFFD4000: 'MSDM', 'TP-R00  ', Rev: 3, Len: 85 -> MSDM.aml
+5:159  0:007    19. CFFD3000: 'DMAR', 'TP-R00  ', Rev: 1, Len: 168 -> DMAR.aml
+5:167  0:007    20. CFFD2000: 'FPDT', 'TP-R00  ', Rev: 1, Len: 68 -> FPDT.aml
+5:174  0:007    21. CFFFD000: 'BGRT', 'TP-R00  ', Rev: 1, Len: 56 -> BGRT.aml
+5:181  0:007    22. CFF9C000: 'UEFI', 'TP-R00  ', Rev: 1, Len: 318 -> UEFI.aml
+5:189  0:007    Tables in Rsdt: 23
+5:189  0:000    0. CFFF7000: 'FACP', 'TP-R00  ', Rev: 5, Len: 244
+5:189  0:000        (Dsdt: CFFDE000, Facs: CFF9E000, XDsdt: CFFDE000, XFacs: 0)
+5:189  0:000        CFFDE000: 'DSDT', 'TP-R00  ', Rev: 2, Len: 71296
+5:190  0:001        CFF9E000: 'FACS', Ver: 2, Len: 64
+5:190  0:000    1. CFFB5000: 'UEFI', 'TP-R00  ', Rev: 1, Len: 66
+5:190  0:000    2. CFFF8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 19978
+5:190  0:000    3. CFFF6000: 'ASF!', 'TP-R00  ', Rev: 32, Len: 165
+5:190  0:000    4. CFFF5000: 'ECDT', 'TP-R00  ', Rev: 1, Len: 82
+5:190  0:000    5. CFFF4000: 'HPET', 'TP-R00  ', Rev: 1, Len: 56
+5:190  0:000    6. CFFF3000: 'LPIT', 'TP-R00  ', Rev: 1, Len: 148
+5:190  0:000    7. CFFF2000: 'APIC', 'TP-R00  ', Rev: 3, Len: 188
+5:190  0:000    8. CFFF1000: 'MCFG', 'TP-R00  ', Rev: 1, Len: 60
+5:190  0:000    9. CFFF0000: 'WDAT', 'TP-R00  ', Rev: 1, Len: 308
+5:190  0:000    10. CFFDC000: 'SSDT', 'SataAhci', Rev: 1, Len: 6908
+5:190  0:000    11. CFFDB000: 'DBGP', 'TP-R00  ', Rev: 1, Len: 52
+5:190  0:000    12. CFFDA000: 'DBG2', 'TP-R00  ', Rev: 0, Len: 84
+5:190  0:000    13. CFFD9000: 'BOOT', 'TP-R00  ', Rev: 1, Len: 40
+5:190  0:000    14. CFFD8000: 'BATB', 'TP-R00  ', Rev: 1, Len: 70
+5:190  0:000    15. CFFD7000: 'SLIC', 'TP-R00  ', Rev: 1, Len: 374
+5:190  0:000    16. CFFD6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+5:190  0:000    17. CFFD5000: 'SSDT', 'CtdpB', Rev: 2, Len: 985
+5:190  0:000    18. CFFD4000: 'MSDM', 'TP-R00  ', Rev: 3, Len: 85
+5:190  0:000    19. CFFD3000: 'DMAR', 'TP-R00  ', Rev: 1, Len: 168
+5:190  0:000    20. CFFD2000: 'FPDT', 'TP-R00  ', Rev: 1, Len: 68
+5:190  0:000    21. CFFFD000: 'BGRT', 'TP-R00  ', Rev: 1, Len: 56
+5:190  0:000    22. CFF9C000: 'UEFI', 'TP-R00  ', Rev: 1, Len: 318
+5:190  0:000  Found UEFI Acpi 1.0 RSDP at CFFFE000
+5:190  0:000  Printing ACPI tables from RSDP CFFFE000 ...
+5:190  0:000   CFFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+5:190  0:000    (Rsdt: CFFD1000)
+5:190  0:000    CFFD1000: 'RSDT', 'TP-R00  ', Rev: 1, Len: 124
+5:190  0:000    Tables in Rsdt: 22
+5:190  0:000    0. CFFF7000: 'FACP', 'TP-R00  ', Rev: 5, Len: 244
+5:190  0:000        (Dsdt: CFFDE000, Facs: CFF9E000, XDsdt: CFFDE000, XFacs: 0)
+5:190  0:000        CFFDE000: 'DSDT', 'TP-R00  ', Rev: 2, Len: 71296
+5:191  0:001        CFF9E000: 'FACS', Ver: 2, Len: 64
+5:191  0:000    1. CFFB5000: 'UEFI', 'TP-R00  ', Rev: 1, Len: 66
+5:191  0:000    2. CFFF8000: 'SSDT', 'SaSsdt ', Rev: 2, Len: 19978
+5:191  0:000    3. CFFF6000: 'ASF!', 'TP-R00  ', Rev: 32, Len: 165
+5:191  0:000    4. CFFF5000: 'ECDT', 'TP-R00  ', Rev: 1, Len: 82
+5:191  0:000    5. CFFF4000: 'HPET', 'TP-R00  ', Rev: 1, Len: 56
+5:191  0:000    6. CFFF3000: 'LPIT', 'TP-R00  ', Rev: 1, Len: 148
+5:191  0:000    7. CFFF2000: 'APIC', 'TP-R00  ', Rev: 3, Len: 188
+5:191  0:000    8. CFFF1000: 'MCFG', 'TP-R00  ', Rev: 1, Len: 60
+5:191  0:000    9. CFFF0000: 'WDAT', 'TP-R00  ', Rev: 1, Len: 308
+5:191  0:000    10. CFFDC000: 'SSDT', 'SataAhci', Rev: 1, Len: 6908
+5:191  0:000    11. CFFDB000: 'DBGP', 'TP-R00  ', Rev: 1, Len: 52
+5:191  0:000    12. CFFDA000: 'DBG2', 'TP-R00  ', Rev: 0, Len: 84
+5:191  0:000    13. CFFD9000: 'BOOT', 'TP-R00  ', Rev: 1, Len: 40
+5:191  0:000    14. CFFD8000: 'BATB', 'TP-R00  ', Rev: 1, Len: 70
+5:191  0:000    15. CFFD6000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3672
+5:191  0:000    16. CFFD5000: 'SSDT', 'CtdpB', Rev: 2, Len: 985
+5:191  0:000    17. CFFD4000: 'MSDM', 'TP-R00  ', Rev: 3, Len: 85
+5:191  0:000    18. CFFD3000: 'DMAR', 'TP-R00  ', Rev: 1, Len: 168
+5:191  0:000    19. CFFD2000: 'FPDT', 'TP-R00  ', Rev: 1, Len: 68
+5:191  0:000    20. CFFFD000: 'BGRT', 'TP-R00  ', Rev: 1, Len: 56
+5:191  0:000    21. CFF9C000: 'UEFI', 'TP-R00  ', Rev: 1, Len: 318
