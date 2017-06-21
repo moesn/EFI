@@ -1,4 +1,0 @@
-
-Clover EFI installer log - Sat Apr  1 18:53:40 CST 2017
-Installer version: v2.4k r4049 EFI bootloader
-
